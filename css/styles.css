@@ -776,6 +776,65 @@ footer {
     transform: translate(-50%, -50%) scale(0);
 }
 
+textarea {
+    resize: none;
+}
+
+.form {
+    display: block;
+    /* position: relative; */
+    margin-bottom: 20px;
+
+    width: 448px;
+    outline: 1px solid tomato;
+}
+
+.form-title {
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+.form-label {
+    /* position: absolute;
+    left: 0; */
+
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+}
+
+.form-checkbox-agreement {
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.agreement-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2196f3;
+}
 
 /* Кнопка ЗАКРИТИ в Модальному вікні */
 

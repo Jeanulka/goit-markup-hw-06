@@ -93,9 +93,51 @@
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="form">
+              <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+
+              <div class="form-field">
+                <label for="name" class="form-label">Ім&#8216;я</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+
+              <div class="form-field">
+                <label for="tel" class="form-label">Телефон</label>
+                <input type="tel" name="tel" id="tel" class="form-input" />
+              </div>
+
+              <div class="form-field">
+                <label for="mail" class="form-label">Пошта</label>
+                <input type="email" name="email" id="mail" class="form-input" />
+              </div>
+
+              <div class="form-field">
+                <label for="comment" class="form-label">Коментар</label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols=""
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-checkbox-agreement">
+              <input
+                type="checkbox"
+                name="agreement"
+                id="agreement"
+                value="Погожуюсь з розсилкою та приймаю умови договору"
+              />
+              <label for="agreement" class="form-label"
+                >Погожуюсь з розсилкою та приймаю
+                <a href="#" class="agreement-link">Умови договору</a></label
+              >
+            </div>
+
             <button type="button" class="btn-close" data-modal-close></button>
-            <button type="button" class="btn send">Відправити</button>
+            <button type="submit" class="btn send">Відправити</button>
           </div>
         </div>
       </section>
